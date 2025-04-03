@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title id="pageTitle"></title>
-   <!-- ======================= 게임 설정 및 문제 데이터 (최상단 배치) ======================= -->
+  <!-- ======================= 게임 설정 및 문제 데이터 (최상단 배치) ======================= -->
   <script>
   /* 게임 설정 및 문제 데이터 */
   const gameConfig = {
@@ -375,19 +375,19 @@
     /* ======================= 디자인 변수 설정 (카테고리별 정리) ======================= */
     :root {
       /* ----- 게임 전체 배경 ----- */
-      --body-bg-start-color: #f5f7fa;       /* 배경 그라데이션 시작 색상 */
-      --body-bg-end-color: #c3cfe2;         /* 배경 그라데이션 끝 색상 */
-      --body-pattern-opacity: 0.3;           /* 배경 패턴 투명도 */
+      --body-bg-start-color: #f5f7fa;      /* 배경 그라데이션 시작 색상 */
+      --body-bg-end-color: #c3cfe2;        /* 배경 그라데이션 끝 색상 */
+      --body-pattern-opacity: 0.3;          /* 배경 패턴 투명도 */
 
       /* ----- 텍스트 설정 ----- */
-      --start-screen-title: "이름을 ";   /* 시작 화면 제목 */
-      --player-name-placeholder: "이름을 입력하세요";        /* 이름 입력 필드 플레이스홀더 */
-      --start-button-text: "게임시작";               /* 시작 버튼 텍스트 */
-      --next-button-text: "다음문제";                 /* 다음 버튼 텍스트 */
-      --complete-button-text: "완료";                 /* 완료 버튼 텍스트 */
-      --check-button-text: "확인";                  /* 확인 버튼 텍스트 */
-      --submit-button-text: "전송하기";                /* 전송 버튼 텍스트 */
-      --result-title-text: "게임 종료";                 /* 결과 화면 제목 */
+      --start-screen-title: "이름을 ";    /* 시작 화면 제목 */
+      --player-name-placeholder: "이름을 입력하세요";       /* 이름 입력 필드 플레이스홀더 */
+      --start-button-text: "게임시작";            /* 시작 버튼 텍스트 */
+      --next-button-text: "다음문제";               /* 다음 버튼 텍스트 */
+      --complete-button-text: "완료";               /* 완료 버튼 텍스트 */
+      --check-button-text: "확인";                /* 확인 버튼 텍스트 */
+      --submit-button-text: "전송하기";             /* 전송 버튼 텍스트 */
+      --result-title-text: "게임 종료";               /* 결과 화면 제목 */
 
       /* ----- 시스템 메시지 ----- */
       --success-message: "성공: 데이터가 성공적으로 전송되었습니다.";  /* 성공 메시지 */
@@ -396,7 +396,7 @@
 
       /* ----- 제목 스타일 ----- */
       --game-title-color: #2c3e50;           /* 게임 제목 색상 */
-      --game-title-font-size: 32px;            /* 게임 제목 글자 크기 */
+      --game-title-font-size: 32px;           /* 게임 제목 글자 크기 */
       --game-title-bg-start: rgba(255,255,255,0.9);  /* 제목 배경 그라데이션 시작 색상 */
       --game-title-bg-end: rgba(240,242,245,0.85);   /* 제목 배경 그라데이션 끝 색상 */
       --game-title-border: 1px solid rgba(255,255,255,0.7);  /* 제목 테두리 */
@@ -417,20 +417,20 @@
       --light-gray-2: #ecf0f1;     /* 문제 번호 배경색, 결과 화면 번호 배경색 */
 
       /* ----- 정답/오답 피드백 색상 설정 ----- */
-      --correct-color: #2ecc71;     /* 정답 표시 색상(초록색) */
-      --correct-dark: #27ae60;      /* 정답 색상의 어두운 버전(그라데이션용) */
-      --incorrect-color: #e74c3c;   /* 오답 표시 색상(빨간색) */
-      --incorrect-dark: #c0392b;    /* 오답 색상의 어두운 버전(그라데이션용) */
-      --feedback-delay: 1000;       /* 정답/오답 피드백 표시 지연 시간(ms) */
+      --correct-color: #2ecc71;      /* 정답 표시 색상(초록색) */
+      --correct-dark: #27ae60;       /* 정답 색상의 어두운 버전(그라데이션용) */
+      --incorrect-color: #e74c3c;    /* 오답 표시 색상(빨간색) */
+      --incorrect-dark: #c0392b;     /* 오답 색상의 어두운 버전(그라데이션용) */
+      --feedback-delay: 1000;         /* 정답/오답 피드백 표시 지연 시간(ms) */
 
       /* ----- 버튼 공통 설정 ----- */
-      --button-font-size: 16px;     /* 버튼 글자 크기 */
+      --button-font-size: 16px;       /* 버튼 글자 크기 */
       --button-padding: 14px 24px;  /* 버튼 내부 여백 */
       --button-margin: 10px 5px;    /* 버튼 마진 */
       --button-transform: translateY(-4px);     /* 버튼 기본 높이 조정 */
       --button-hover-transform: translateY(-5px); /* 버튼 호버 시 높이 조정 */
       --button-active-transform: translateY(0px); /* 버튼 클릭 시 높이 조정 */
-      --disabled-color: #bdc3c7;    /* 비활성화된 버튼 색상 */
+      --disabled-color: #bdc3c7;     /* 비활성화된 버튼 색상 */
 
       /* ----- 시작 버튼 색상 ----- */
       --start-button-color: #2ecc71; /* 시작 버튼 배경색(초록색) */
@@ -453,8 +453,8 @@
       --submit-button-dark: #d35400;  /* 제출 버튼 어두운 버전 */
 
       /* ----- 객관식 옵션 색상 ----- */
-      --option-color: #3498db;         /* 객관식 옵션 버튼 기본 색상 */
-      --option-dark: #2980b9;          /* 객관식 옵션 버튼 어두운 버전 */
+      --option-color: #3498db;           /* 객관식 옵션 버튼 기본 색상 */
+      --option-dark: #2980b9;           /* 객관식 옵션 버튼 어두운 버전 */
       --option-selected-color: #f39c12; /* 선택된 객관식 버튼 색상 */
       --option-selected-dark: #d35400; /* 선택된 객관식 버튼 어두운 버전 */
 
@@ -464,36 +464,42 @@
       --keyboard-bottom: #bbb;       /* 키보드 스타일 버튼 하단 색상 */
 
       /* ----- 객관식 옵션 설정 ----- */
-      --option-min-width: 70px;    /* <<-- 객관식 버튼 최소 너비 조정 위치 */
-      --option-padding-h: 10px;     /* 버튼 좌우 여백 */
-      --option-padding-v: 15px;     /* 버튼 상하 여백 */
-      --option-font-size: 20px;     /* 버튼 글자 크기 */
+      --option-min-width: 70px;   /* <<-- 객관식 버튼 최소 너비 조정 위치 */
+      --option-padding-h: 10px;      /* 버튼 좌우 여백 */
+      --option-padding-v: 15px;      /* 버튼 상하 여백 */
+      --option-font-size: 20px;      /* 버튼 글자 크기 */
       --option-3d-angle: 10deg;
       --option-selected-scale: 1.1;
       --option-hover-scale: 1.05;
 
       /* ----- 주관식 피드백 효과 설정 ----- */
       --correct-bg-color: rgba(46,204,113,0.2);     /* 정답 배경색 (20% 투명도) */
-      --correct-glow-color: rgba(46,204,113,0.5);    /* 정답 테두리 빛남 효과 (50% 투명도) */
-      --incorrect-bg-color: rgba(231,76,60,0.2);    /* 오답 배경색 (20% 투명도) */
-      --incorrect-glow-color: rgba(231,76,60,0.5);   /* 오답 테두리 빛남 효과 (50% 투명도) */
-      --answer-glow-intensity: 15px;             /* 테두리 빛남 효과 강도 */
+      --correct-glow-color: rgba(46,204,113,0.5);   /* 정답 테두리 빛남 효과 (50% 투명도) */
+      --incorrect-bg-color: rgba(231,76,60,0.2);   /* 오답 배경색 (20% 투명도) */
+      --incorrect-glow-color: rgba(231,76,60,0.5);  /* 오답 테두리 빛남 효과 (50% 투명도) */
+      --answer-glow-intensity: 15px;            /* 테두리 빛남 효과 강도 */
 
       /* ----- 게임 플레이 요소 ----- */
-      --remaining-chances: 3;            /* 초기 남은 기회 수 */
-      --chance-width: 40px;             /* 기회 표시기 너비 */
-      --chance-height: 16px;            /* 기회 표시기 높이 */
-      --chance-border-radius: 4px;      /* 기회 표시기 테두리 둥글기 */
+      --progress-height: 20px;                /* 진행률 게이지 높이 */
+      --progress-border-radius: 10px;         /* 진행률 게이지 테두리 둥글기 */
+      --progress-bg-color: #f0f0f0;          /* 진행률 게이지 배경색 */
+      --progress-gradient: linear-gradient(90deg, #3498db, #9b59b6); /* 진행률 게이지 그라데이션 */
+      --progress-shine: rgba(255,255,255,0.3);  /* 진행률 게이지 빛남 효과 색상 */
+      --progress-animation-duration: 0.8s;    /* 진행률 게이지 애니메이션 지속 시간 */
+      --progress-shine-duration: 2s;          /* 진행률 게이지 빛남 효과 지속 시간 */
+      --chance-width: 40px;               /* 기회 표시기 너비 */
+      --chance-height: 16px;              /* 기회 표시기 높이 */
+      --chance-border-radius: 4px;        /* 기회 표시기 테두리 둥글기 */
       --chance-animation-duration: 3s; /* 기회 표시기 애니메이션 지속 시간 */
-      --chance-wave-duration: 2s;       /* 기회 표시기 물결 애니메이션 지속 시간 */
-      --chance-color: #2ecc71;          /* 남은 기회 표시 색상 */
-      --chance-lost-color: #ecf0f1;     /* 잃은 기회 표시 색상 */
+      --chance-wave-duration: 2s;         /* 기회 표시기 물결 애니메이션 지속 시간 */
+      --chance-color: #2ecc71;            /* 남은 기회 표시 색상 */
+      --chance-lost-color: #ecf0f1;       /* 잃은 기회 표시 색상 */
 
       /* ----- 진행 게이지 설정 ----- */
-      --progress-height: 15px;           /* 진행 게이지 높이 */
-      --progress-border-radius: 8px;     /* 진행 게이지 테두리 둥글기 */
-      --progress-left-color: #00D2F7;     /* 진행 게이지 왼쪽 색상 */
-      --progress-right-color: #7DF9AA;    /* 진행 게이지 오른쪽 색상 */
+      --progress-height: 15px;            /* 진행 게이지 높이 */
+      --progress-border-radius: 8px;      /* 진행 게이지 테두리 둥글기 */
+      --progress-left-color: #00D2F7;      /* 진행 게이지 왼쪽 색상 */
+      --progress-right-color: #7DF9AA;     /* 진행 게이지 오른쪽 색상 */
       --progress-bg-color: rgba(236,240,241,0.8); /* 진행 게이지 배경색 */
       --progress-shine: rgba(255,255,255,0.35); /* 진행 게이지 반짝임 효과 색상 */
       --progress-animation-duration: 0.7s; /* 진행 게이지 애니메이션 지속 시간 */
@@ -502,9 +508,9 @@
 
       /* ----- 완료 애니메이션 설정 ----- */
       --complete-animation-duration: 1.5s; /* 완료 애니메이션 지속 시간 */
-      --particle-count: 50;             /* 완료 애니메이션 파티클 개수 */
-      --particle-size-min: 5px;         /* 파티클 최소 크기 */
-      --particle-size-max: 15px;        /* 파티클 최대 크기 */
+      --particle-count: 50;               /* 완료 애니메이션 파티클 개수 */
+      --particle-size-min: 5px;           /* 파티클 최소 크기 */
+      --particle-size-max: 15px;          /* 파티클 최대 크기 */
       --particle-animation-duration: 1s; /* 파티클 애니메이션 지속 시간 */
       --particle-distance-min: 50px; /* 파티클 최소 이동 거리 */
       --particle-distance-max: 230px; /* 파티클 최대 이동 거리 */
@@ -515,7 +521,7 @@
       --score-highlight-color: #FFCC70; /* 최종 점수 하이라이트 색상 */
       --result-animation-duration: 0.5s; /* 결과 화면 애니메이션 지속 시간 */
       --score-pulsate-duration: 2s; /* 점수 표시 펄스 애니메이션 지속 시간 */
-      --score-shine-duration: 3s;    /* 점수 표시 반짝임 애니메이션 지속 시간 */
+      --score-shine-duration: 3s;     /* 점수 표시 반짝임 애니메이션 지속 시간 */
 
       /* ----- 파티클 효과 색상 ----- */
       --particle-color-1: #00D2F7;  /* 파티클 효과 색상 1 */
@@ -542,23 +548,23 @@
       --question-min-height: 500px; /* 문제 컨테이너 최소 높이 */
 
       /* ----- 테두리 및 그림자 ----- */
-      --border-radius-small: 5px;    /* 작은 테두리 둥글기 */
-      --border-radius-medium: 8px;   /* 중간 테두리 둥글기(버튼용) */
-      --border-radius-large: 10px;   /* 큰 테두리 둥글기(컨테이너용) */
+      --border-radius-small: 5px;     /* 작은 테두리 둥글기 */
+      --border-radius-medium: 8px;    /* 중간 테두리 둥글기(버튼용) */
+      --border-radius-large: 10px;    /* 큰 테두리 둥글기(컨테이너용) */
       --border-radius-x-large: 12px; /* 매우 큰 테두리 둥글기 */
-      --border-radius-circle: 50%;   /* 원형 테두리(객관식 버튼용) */
+      --border-radius-circle: 50%;    /* 원형 테두리(객관식 버튼용) */
       --box-shadow-light: 0 2px 5px rgba(0,0,0,0.1); /* 가벼운 그림자 */
       --box-shadow-medium: 0 4px 10px rgba(0,0,0,0.1); /* 중간 그림자 */
       --box-shadow-heavy: 0 8px 20px rgba(0,0,0,0.15); /* 진한 그림자 */
 
       /* ----- 입력 필드 설정 ----- */
-      --input-padding: 15px 20px;    /* 입력 필드 내부 여백 */
-      --input-font-size: 16px;       /* 입력 필드 글자 크기 */
+      --input-padding: 15px 20px;     /* 입력 필드 내부 여백 */
+      --input-font-size: 16px;        /* 입력 필드 글자 크기 */
       --input-focus-shadow: 0 5px 15px rgba(52,152,219,0.2); /* 입력 필드 포커스 그림자 */
       --input-focus-transform: translateY(-2px); /* 입력 필드 포커스 시 위치 이동 */
 
       /* ----- 반응형 디자인 설정 ----- */
-      --mobile-breakpoint: 480px;    /* 모바일 기기 분기점 */
+      --mobile-breakpoint: 480px;     /* 모바일 기기 분기점 */
     }
 
     /* ======================= 공통 배경 및 레이아웃 ======================= */
@@ -898,25 +904,24 @@
       transition: all 0.05s ease;
     }
     .btn:disabled {
-      background-color: var(--disabled-color);
       cursor: not-allowed;
       transform: translateY(1px);      /* 음각 효과 */
+      filter: grayscale(40%) brightness(95%);  /* 모든 버튼에 동일한 회색조와 밝기 감소 적용 */
+      opacity: 0.7;                   /* 모든 버튼에 동일한 투명도 적용 */
       box-shadow:
         0 0 0 1px rgba(0,0,0,0.1),
         0 1px 0 rgba(0,0,0,0.1),
-        0 2px 0 #aaa,                  /* 줄어든 그림자 */
-        0 0 3px rgba(0,0,0,0.1);
-      opacity: 0.7;                      /* 투명도 추가 */
-      filter: grayscale(40%);           /* 그레이스케일 적용 */
-      text-shadow: none;                 /* 텍스트 그림자 제거 */
+        0 2px 0 rgba(0,0,0,0.1);    /* 그림자 효과 감소 */
+      text-shadow: none;             /* 텍스트 그림자 제거 */
+      transition: all 0.2s ease;     /* 부드러운 전환 효과 */
     }
     .btn:disabled:hover {
-      transform: translateY(1px);      /* hover 효과 제거 */
+      transform: translateY(1px);    /* hover 효과 제거 */
       box-shadow:
         0 0 0 1px rgba(0,0,0,0.1),
         0 1px 0 rgba(0,0,0,0.1),
-        0 2px 0 #aaa,
-        0 0 3px rgba(0,0,0,0.1);
+        0 2px 0 rgba(0,0,0,0.1);    /* hover 시에도 동일한 그림자 유지 */
+      filter: grayscale(40%) brightness(95%);  /* hover 시에도 동일한 효과 유지 */
     }
     #startButton {
       background-color: var(--start-button-color);
@@ -1042,6 +1047,13 @@
       min-width: var(--option-min-width);
       /* --- 수정 완료 --- */
     }
+
+    /* KaTeX 렌더링 요소에 대한 스타일 (필요시 추가) */
+    .option .katex {
+        font-size: var(--option-font-size); /* 버튼 폰트 크기와 맞춤 */
+        /* line-height: normal; */ /* 필요시 line-height 조정 */
+    }
+
 
     .option::before {
       content: '';
@@ -1565,8 +1577,8 @@
       .question.with-passage { margin-left: 0; }
       /* 주관식 입력 필드를 감싸는 div의 너비를 모바일에서 조정합니다. */
       .input-answer-fields > div[style*="width: 350px"] { /* 350px 너비가 적용된 div 선택 */
-         width: 90% !important; /* 모바일에서는 90% 너비로 강제 적용 */
-         max-width: 350px; /* 최대 너비는 유지 */
+          width: 90% !important; /* 모바일에서는 90% 너비로 강제 적용 */
+          max-width: 350px; /* 최대 너비는 유지 */
       }
     }
   </style>
@@ -1595,14 +1607,6 @@
           <div class="info-label">현재 점수</div>
           <div class="info-value" id="currentScore">0</div>
         </div>
-        <div class="info-item">
-          <div class="info-label">남은 기회</div>
-          <div class="chances-container">
-            <div class="chance-indicator" id="chance1"></div>
-            <div class="chance-indicator" id="chance2"></div>
-            <div class="chance-indicator" id="chance3"></div>
-          </div>
-        </div>
       </div>
       <div class="question-container" id="questionContainer">
         <div class="passage" id="passage"></div>
@@ -1627,17 +1631,35 @@
       <div id="serverMessage" class="server-message"></div>
     </div>
   </div>
-
+  <!-- MathJax 추가 -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        // 초기 렌더링 제한 설정 추가
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'has-latex'
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
  <script>
   /* 텍스트 설정 */
   const START_SCREEN_TITLE = "이름을 입력하고 게임을 시작하세요";  /* 시작 화면 제목 */
-  const PLAYER_NAME_PLACEHOLDER = "이름을 입력하세요";          /* 이름 입력 필드 플레이스홀더 */
-  const START_BUTTON_TEXT = "게임시작";                      /* 시작 버튼 텍스트 */
-  const NEXT_BUTTON_TEXT = "다음문제";                      /* 다음 버튼 텍스트 */
-  const COMPLETE_BUTTON_TEXT = "완료";                      /* 완료 버튼 텍스트 */
-  const CHECK_BUTTON_TEXT = "확인";                         /* 확인 버튼 텍스트 */
-  const SUBMIT_BUTTON_TEXT = "전송하기";                     /* 전송 버튼 텍스트 */
-  const RESULT_TITLE_TEXT = "게임 종료";                     /* 결과 화면 제목 */
+  const PLAYER_NAME_PLACEHOLDER = "이름을 입력하세요";           /* 이름 입력 필드 플레이스홀더 */
+  const START_BUTTON_TEXT = "게임시작";                  /* 시작 버튼 텍스트 */
+  const NEXT_BUTTON_TEXT = "다음문제";                   /* 다음 버튼 텍스트 */
+  const COMPLETE_BUTTON_TEXT = "완료";                   /* 완료 버튼 텍스트 */
+  const CHECK_BUTTON_TEXT = "확인";                    /* 확인 버튼 텍스트 */
+  const SUBMIT_BUTTON_TEXT = "전송하기";                 /* 전송 버튼 텍스트 */
+  const RESULT_TITLE_TEXT = "게임 종료";                   /* 결과 화면 제목 */
 
   const SUCCESS_MESSAGE = "성공: 데이터가 성공적으로 전송되었습니다.";  /* 성공 메시지 */
   const ERROR_MESSAGE = "오류: 데이터 전송에 실패했습니다.";      /* 오류 메시지 */
@@ -1651,18 +1673,17 @@
   const randomizeQuestions = gameConfig.randomizeQuestions || false; /* 문제 순서 랜덤화 여부 */
 
   /* 전역 변수 선언 */
-  let currentQuestion = 0;       /* 현재 문제 인덱스 */
-  let score = 0;                 /* 현재 점수 */
-  let elapsedTime = 0;           /* 경과 시간(초) */
-  let timerInterval = null;      /* 타이머 인터벌 ID */
-  let startTime = 0;             /* 시작 시간 타임스탬프 */
-  let gameOver = false;          /* 게임 종료 여부 */
-  let userAnswers = [];          /* 사용자 답변 기록 */
-  let answerSubmitted = false;   /* 현재 문제 답변 제출 여부 */
-  let completedQuestions = 0;    /* 완료된 문제 수 */
-  let remainingChances = 3;      /* 남은 기회 수 */
-  let selectedOptions = [];      /* 선택된 객관식 옵션들(복수선택) */
-  let player = "";               /* 플레이어 이름 */
+  let currentQuestion = 0;      /* 현재 문제 인덱스 */
+  let score = 0;                /* 현재 점수 */
+  let elapsedTime = 0;          /* 경과 시간(초) */
+  let timerInterval = null;     /* 타이머 인터벌 ID */
+  let startTime = 0;            /* 시작 시간 타임스탬프 */
+  let gameOver = false;         /* 게임 종료 여부 */
+  let userAnswers = [];         /* 사용자 답변 기록 */
+  let answerSubmitted = false;  /* 현재 문제 답변 제출 여부 */
+  let completedQuestions = 0;   /* 완료된 문제 수 */
+  let selectedOptions = [];     /* 선택된 객관식 옵션들(복수선택) */
+  let player = "";              /* 플레이어 이름 */
 
   /* DOM 요소 참조 (최상단에 선언하여 이후 코드에서 안전하게 사용) */
   const elements = {
@@ -1690,9 +1711,6 @@
     progressBar: document.getElementById('progressBar'),
     progressIndicator: document.getElementById('progressIndicator'),
     loadingSpinner: document.getElementById('loadingSpinner'),
-    chance1: document.getElementById('chance1'),
-    chance2: document.getElementById('chance2'),
-    chance3: document.getElementById('chance3'),
     // --- 수정 3: 진행률 컨테이너 요소 추가 ---
     progressContainer: document.querySelector('.progress-container') // progressBar의 부모 요소를 선택
     // --- 수정 끝 ---
@@ -1701,20 +1719,20 @@
   /* 타이머 함수 */
   const timerFunctions = {
     start() {
-      startTime = Date.now();               /* 현재 시간을 시작 시간으로 설정 */
+      startTime = Date.now();              /* 현재 시간을 시작 시간으로 설정 */
       timerInterval = setInterval(this.update, 1000); /* 1초마다 update 함수 실행 */
     },
     update() {
       elapsedTime = Math.floor((Date.now() - startTime) / 1000); /* 경과 시간 계산 */
       const m = Math.floor(elapsedTime / 60).toString().padStart(2, '0'); /* 분 */
-      const s = (elapsedTime % 60).toString().padStart(2, '0');       /* 초 */
+      const s = (elapsedTime % 60).toString().padStart(2, '0');      /* 초 */
       elements.timer.textContent = `${m}:${s}`;                       /* 타이머 표시 */
     },
     stop() { clearInterval(timerInterval); },                       /* 타이머 정지 */
     formatTime(sec) {
-      const m = Math.floor(sec / 60);                       /* 분 */
-      const s = sec % 60;                                   /* 초 */
-      return `${m}분 ${s}초`;                               /* 포맷 변환 */
+      const m = Math.floor(sec / 60);                          /* 분 */
+      const s = sec % 60;                                      /* 초 */
+      return `${m}분 ${s}초`;                                  /* 포맷 변환 */
     }
   };
 
@@ -1730,13 +1748,11 @@
     userAnswers = [];
     answerSubmitted = false;
     completedQuestions = 0;
-    remainingChances = 3;
     selectedOptions = [];
 
     /* UI 초기화 */
     elements.timer.textContent = "00:00";
     elements.currentScore.textContent = "0";
-    updateChancesDisplay();
     updateProgressBar();
   }
 
@@ -1751,15 +1767,15 @@
   function createCompletionParticles() {
     const container = document.querySelector('.progress-container');
     const rect = container.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;                     /* 중앙 X 좌표 */
-    const centerY = rect.top + rect.height / 2;                    /* 중앙 Y 좌표 */
+    const centerX = rect.left + rect.width / 2;          /* 중앙 X 좌표 */
+    const centerY = rect.top + rect.height / 2;         /* 중앙 Y 좌표 */
 
     /* 파티클 생성 */
     for (let i = 0; i < parseInt(getComputedStyle(document.documentElement).getPropertyValue('--particle-count')); i++) {
       const particle = document.createElement('div');
       particle.className = 'particle';
 
-    /* 랜덤 색상 설정 */
+      /* 랜덤 색상 설정 */
       const colors = [
         getComputedStyle(document.documentElement).getPropertyValue('--particle-color-1').trim(),
         getComputedStyle(document.documentElement).getPropertyValue('--particle-color-2').trim(),
@@ -1801,12 +1817,12 @@
   // 완료 애니메이션 실행
   function triggerCompletionAnimation() {
     return new Promise(resolve => {
-      elements.progressBar.style.width = "100%";                     /* 진행 바 100%로 설정 */
+      elements.progressBar.style.width = "100%";                       /* 진행 바 100%로 설정 */
       setTimeout(() => {
         elements.progressBar.classList.add('completed-animation');   /* 애니메이션 클래스 추가 */
-        createCompletionParticles();                                     /* 파티클 효과 생성 */
+        createCompletionParticles();                                       /* 파티클 효과 생성 */
         const animationDuration = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--complete-animation-duration')) * 1000 + 300;
-        setTimeout(() => { resolve(); }, animationDuration);           /* 애니메이션 완료 후 Promise 해결 */
+        setTimeout(() => { resolve(); }, animationDuration);        /* 애니메이션 완료 후 Promise 해결 */
       }, 300);
     });
   }
@@ -1820,9 +1836,9 @@
 
   // 문제 로드 함수
   function loadQuestion(qIndex) {
-    answerSubmitted = false;                                             /* 답변 제출 상태 초기화 */
-    selectedOptions = [];                                                /* 선택된 옵션 초기화 */
-    elements.nextButton.disabled = true;                                 /* 다음문제 버튼 비활성화 */
+    answerSubmitted = false;                                           /* 답변 제출 상태 초기화 */
+    selectedOptions = [];                                              /* 선택된 옵션 초기화 */
+    elements.nextButton.disabled = true;                               /* 다음문제 버튼 비활성화 */
 
     /* 기존 확인 버튼 제거 */
     const existingConfirm = document.getElementById('checkButton');
@@ -1834,10 +1850,10 @@
     elements.shortAnswer.innerHTML = "";
     elements.shortAnswer.style.display = "none"; // Hide by default
 
-    const q = questions[qIndex];                                         /* 현재 문제 가져오기 */
-    if(!q) { endGame(true); return; }                                    /* 문제가 없으면 게임 종료 */
+    const q = questions[qIndex];                                       /* 현재 문제 가져오기 */
+    if(!q) { endGame(true); return; }                                  /* 문제가 없으면 게임 종료 */
 
-    elements.questionNumber.textContent = `문제 ${qIndex + 1}`;           /* 문제 번호 표시 */
+    elements.questionNumber.textContent = `문제 ${qIndex + 1}`;        /* 문제 번호 표시 */
 
     /* 보기(passage) 설정 */
     if(q.passage) {
@@ -1872,24 +1888,52 @@
       // 옵션 설정
       let options = [];
       if(q.customOptions && Array.isArray(q.customOptions) && q.customOptions.length > 0) {
-        options = q.customOptions.slice(0, 5);                     /* 최대 5개 커스텀 옵션 */
+        options = q.customOptions.slice(0, 5); // 최대 5개 커스텀 옵션
       } else {
-        options = ["1", "2", "3", "4", "5"];                       /* 기본 옵션 */
+        // customOptions가 없을 경우 기본 옵션 (예시용, 실제로는 customOptions 필수일 수 있음)
+        options = ["1", "2", "3", "4", "5"];
       }
 
       // Determine layout (vertical or horizontal) - simplified
       elements.multipleChoice.classList.remove('vertical'); // Default to horizontal
 
-      /* 옵션 생성 - 최소 너비 설정 로직 제거 */
+      /* === 객관식 옵션 생성 === */
       options.forEach((optText, index) => {
         const optDiv = document.createElement('div');
         optDiv.className = "option";
-        // JavaScript에서 min-width 설정 제거됨 -> CSS의 var(--option-min-width)가 적용됨
-        optDiv.setAttribute("data-option", (index+1).toString());
-        optDiv.textContent = optText;
+        optDiv.setAttribute("data-option", (index + 1).toString());
+
+        if (q.customOptions) {
+          // customOptions가 있는 경우에만 MathJax 렌더링 적용
+          optDiv.className = "option has-latex"; // has-latex 클래스 추가
+          let processedText = optText
+            .replace(/\\Wlim/g, '\\lim')
+            .replace(/\\Wto/g, '\\to')
+            .replace(/\\Winfty/g, '\\infty')
+            .replace(/\\Walpha/g, '\\alpha')
+            .replace(/\\Wbeta/g, '\\beta');
+
+          optDiv.innerHTML = `$${processedText}$`;
+          
+          // MathJax 수동 렌더링 트리거
+          if (typeof MathJax !== 'undefined') {
+            MathJax.typesetPromise([optDiv]).catch((err) => {
+              console.error("MathJax rendering error:", err);
+              optDiv.textContent = optText;
+            });
+          } else {
+            console.warn("MathJax not loaded yet");
+            optDiv.textContent = optText;
+          }
+        } else {
+          // customOptions가 없는 경우 일반 텍스트로 표시
+          optDiv.textContent = optText;
+        }
+
         optDiv.addEventListener('click', handleOptionClick);
         elements.multipleChoice.appendChild(optDiv);
       });
+      /* === KaTeX 렌더링 수정 끝 === */
 
       /* 복수정답 여부에 따라 확인 버튼 생성 */
       if(Array.isArray(q.answer) && q.answer.length > 1) {
@@ -1899,10 +1943,10 @@
       elements.shortAnswer.style.display = "flex"; // Show short answer area
       let inputHTML = '<div class="input-answer-fields">';
 
-        // --- 수정 1: 너비 고정 로직 ---
-        const fixedWidth = "350px"; // 고정 너비 설정
+      // --- 수정 1: 너비 고정 로직 ---
+      const fixedWidth = "350px"; // 고정 너비 설정
 
-        if(Array.isArray(q.answer)) {
+      if(Array.isArray(q.answer)) {
           /* 복수 입력 필드 생성 로직 */
           for(let i = 0; i < Math.min(q.answer.length, 5); i++) {
               const placeholder = (q.placeholders && Array.isArray(q.placeholders) && q.placeholders[i])
@@ -1914,22 +1958,22 @@
                               <input class="answer-input" id="answerInput${i+1}" placeholder="${placeholder}" type="text"/>
                             </div>`;
           }
-        } else {
-            /* 단일 입력 필드 생성 로직 */
-            let singlePlaceholder = "답을 입력하세요"; // 기본 플레이스홀더
-            if (q.placeholders) {
-                if (typeof q.placeholders === 'string') {
-                    singlePlaceholder = q.placeholders;
-                } else if (Array.isArray(q.placeholders) && q.placeholders.length > 0 && q.placeholders[0]) {
-                    singlePlaceholder = q.placeholders[0];
-                }
-            }
-            // 너비 고정 및 중앙 정렬 위해 margin: 5px auto 추가
-            inputHTML += `<div style="width: ${fixedWidth}; margin: 5px auto;">
-                             <input class="answer-input" id="answerInput" placeholder="${singlePlaceholder}" type="text"/>
-                          </div>`;
-        }
-        // --- 수정 끝 ---
+      } else {
+          /* 단일 입력 필드 생성 로직 */
+          let singlePlaceholder = "답을 입력하세요"; // 기본 플레이스홀더
+          if (q.placeholders) {
+              if (typeof q.placeholders === 'string') {
+                  singlePlaceholder = q.placeholders;
+              } else if (Array.isArray(q.placeholders) && q.placeholders.length > 0 && q.placeholders[0]) {
+                  singlePlaceholder = q.placeholders[0];
+              }
+          }
+          // 너비 고정 및 중앙 정렬 위해 margin: 5px auto 추가
+          inputHTML += `<div style="width: ${fixedWidth}; margin: 5px auto;">
+                           <input class="answer-input" id="answerInput" placeholder="${singlePlaceholder}" type="text"/>
+                         </div>`;
+      }
+      // --- 수정 끝 ---
 
       inputHTML += '</div>';
       elements.shortAnswer.innerHTML = inputHTML;
@@ -1984,10 +2028,10 @@
 
     const selectedOption = e.currentTarget;
     const q = questions[currentQuestion];
-    const userAnswer = selectedOption.getAttribute('data-option');
+    const userAnswer = selectedOption.getAttribute('data-option'); // 선택한 옵션의 번호 (1, 2, 3...)
 
     if(Array.isArray(q.answer) && q.answer.length > 1) {
-      /* 복수 선택 로직 */
+      /* 복수 선택 로직 - 기존과 동일하게 유지 */
       if(selectedOptions.includes(userAnswer)) {
         selectedOptions = selectedOptions.filter(opt => opt !== userAnswer);
         selectedOption.classList.remove("selected");
@@ -2000,10 +2044,13 @@
       const confirmBtn = document.getElementById('checkButton');
       if(confirmBtn) { confirmBtn.disabled = (selectedOptions.length === 0); }
     } else {
-      /* 단일 선택 로직 - 바로 정답 확인 */
+      /* 단일 선택 로직 - 휘매쓰 학습용 방식으로 수정 */
       answerSubmitted = true;
+      
+      // 답안 비교 로직 수정
+      const isCorrect = userAnswer === String(q.answer);
 
-      if(userAnswer === q.answer.toString()) {
+      if(isCorrect) {
         /* 정답인 경우 */
         selectedOption.classList.add("correct");
         score += q.score || defaultScore;
@@ -2011,17 +2058,6 @@
       } else {
         /* 오답인 경우 */
         selectedOption.classList.add("incorrect");
-        remainingChances--;
-        updateChancesDisplay();
-
-        // --- 수정 2: 오답 시 정답 표시 제거 ---
-        // Find and highlight the correct answer (REMOVED)
-        // --- 수정 끝 ---
-
-        if(remainingChances <= 0) {
-          setTimeout(() => { endGame(false); }, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--feedback-delay')));
-          return;
-        }
       }
 
       /* 사용자 답변 기록 */
@@ -2029,13 +2065,14 @@
         questionId: q.id,
         userAnswer: userAnswer,
         correctAnswer: q.answer,
-        isCorrect: (userAnswer === q.answer.toString()),
-        score: (userAnswer === q.answer.toString()) ? (q.score || defaultScore) : 0
+        isCorrect: isCorrect,
+        score: isCorrect ? (q.score || defaultScore) : 0
       });
 
-      elements.nextButton.disabled = false; /* 다음문제 버튼 활성화 */
-      // Disable all options after selection
-      document.querySelectorAll('.option').forEach(opt => opt.style.pointerEvents = 'none');
+      elements.nextButton.disabled = false;
+      document.querySelectorAll('.option').forEach(opt => {
+        opt.style.pointerEvents = 'none';
+      });
     }
   }
 
@@ -2048,6 +2085,7 @@
 
     /* 정답 확인 */
     let allCorrect = true;
+    // q.answer가 항상 배열이라고 가정 (복수 선택 문제이므로)
     const correctAnswers = q.answer.map(String); // Ensure correct answers are strings
     const userAnswersStr = selectedOptions.map(String); // Ensure user answers are strings
 
@@ -2055,9 +2093,9 @@
     if(userAnswersStr.length !== correctAnswers.length) {
         allCorrect = false;
     } else {
-      // Check if every selected answer is in the correct answers array
+      // Check if every selected answer is in the correct answers array and vice-versa
       allCorrect = userAnswersStr.every(ans => correctAnswers.includes(ans)) &&
-                    correctAnswers.every(ans => userAnswersStr.includes(ans)); // Ensure both ways match
+                   correctAnswers.every(ans => userAnswersStr.includes(ans)); // Ensure both ways match
     }
 
     /* 옵션별 정답/오답 표시 */
@@ -2073,7 +2111,7 @@
           opt.classList.add("incorrect"); // 선택했고 오답이면 빨간색
         }
       }
-      // 사용자가 선택하지 않은 옵션은 색상 변경 없음
+
       opt.style.pointerEvents = 'none'; // Disable further clicks
     });
 
@@ -2081,15 +2119,6 @@
       /* 모두 정답인 경우 */
       score += q.score || defaultScore;
       elements.currentScore.textContent = score;
-    } else {
-      /* 오답이 있는 경우 */
-      remainingChances--;
-      updateChancesDisplay();
-
-      if(remainingChances <= 0) {
-        setTimeout(() => { endGame(false); }, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--feedback-delay')));
-        return;
-      }
     }
 
     /* 확인 버튼 비활성화, 다음 버튼 활성화 */
@@ -2100,7 +2129,7 @@
     /* 사용자 답변 기록 */
     userAnswers.push({
       questionId: q.id,
-      userAnswer: selectedOptions, // Keep original format
+      userAnswer: selectedOptions, // Keep original format (array of strings)
       correctAnswer: q.answer,
       isCorrect: allCorrect,
       score: allCorrect ? (q.score || defaultScore) : 0
@@ -2135,85 +2164,65 @@
     let isCorrectOverall = true;
     let userAnswerArray = [];
 
-    /* 각 입력 필드별 정답 확인 */
+    /* 각 입력 필드별 정답 확인 - 휘매쓰 학습용 방식으로 수정 */
     inputs.forEach((input, index) => {
-      // Normalize user answer: trim whitespace, convert to lowercase
-      const userAns = input.value.trim().toLowerCase().replace(/\s+/g, '');
-      userAnswerArray.push(input.value.trim()); // Store original trimmed value for logging
+        const userAns = input.value.trim();
+        userAnswerArray.push(userAns);
 
-      let correctAnsNormalized = "";
-      // Determine the correct answer for this input field
-      const correctAnsRaw = Array.isArray(q.answer) ? q.answer[index] : q.answer;
-
-      if (correctAnsRaw !== undefined && correctAnsRaw !== null) {
-           // Normalize correct answer: convert to string, trim, lowercase, remove spaces
-           correctAnsNormalized = correctAnsRaw.toString().trim().toLowerCase().replace(/\s+/g, '');
-      }
-
-      // Compare normalized answers
-      if(userAns !== correctAnsNormalized) {
-        isCorrectOverall = false;
-        input.classList.add('incorrect');
-      } else {
-        input.classList.add('correct');
-      }
-      input.readOnly = true; // Make input read-only after checking
+        const correctAns = Array.isArray(q.answer) ? String(q.answer[index]) : String(q.answer);
+        
+        if(userAns !== correctAns) {
+            isCorrectOverall = false;
+            input.classList.add('incorrect');
+        } else {
+            input.classList.add('correct');
+        }
+        input.readOnly = true;  // 입력 필드 비활성화
     });
 
     if(isCorrectOverall) {
-      /* 정답인 경우 */
-      score += q.score || defaultScore;
-      elements.currentScore.textContent = score;
-    } else {
-      /* 오답인 경우 */
-      remainingChances--;
-      updateChancesDisplay();
-
-      // Highlight correct answers in case of mistake (Optional: show in placeholder)
-      inputs.forEach((input, index) => {
-          if (input.classList.contains('incorrect')) {
-              const correctAnsRaw = Array.isArray(q.answer) ? q.answer[index] : q.answer;
-              // Optionally show the correct answer if needed, e.g., in a tooltip or placeholder
-               input.placeholder = `정답: ${correctAnsRaw}`; // Example: show correct answer in placeholder
-          }
-      });
-
-      if(remainingChances <= 0) {
-        setTimeout(() => { endGame(false); }, parseInt(getComputedStyle(document.documentElement).getPropertyValue('--feedback-delay')));
-        return;
-      }
+        /* 정답인 경우 */
+        score += q.score || defaultScore;
+        elements.currentScore.textContent = score;
     }
 
-    /* 확인 버튼 비활성화, 다음 버튼 활성화 */
-    const checkBtn = document.getElementById('checkButton');
-    if (checkBtn) checkBtn.disabled = true;
+    /* 다음 버튼 활성화, 확인 버튼 비활성화 */
     elements.nextButton.disabled = false;
+    const checkButton = document.getElementById('checkButton');
+    if(checkButton) {
+        checkButton.disabled = true;
+        checkButton.style.pointerEvents = 'none';  // 클릭 이벤트도 완전히 차단
+    }
 
     /* 사용자 답변 기록 */
     userAnswers.push({
-      questionId: q.id,
-      userAnswer: userAnswerArray.length === 1 ? userAnswerArray[0] : userAnswerArray, // Store single string or array
-      correctAnswer: q.answer,
-      isCorrect: isCorrectOverall,
-      score: isCorrectOverall ? (q.score || defaultScore) : 0
+        questionId: q.id,
+        userAnswer: userAnswerArray,
+        correctAnswer: q.answer,
+        isCorrect: isCorrectOverall,
+        score: isCorrectOverall ? (q.score || defaultScore) : 0
     });
   }
 
   /* 다음 문제 버튼 이벤트 */
   elements.nextButton.addEventListener('click', () => {
-    if (answerSubmitted || currentQuestion >= questions.length -1) { // Ensure answer was submitted or it's the last question
-      completedQuestions++; // Increment only when moving to next or finishing
-      updateProgressBar();
+    // 다음 버튼은 답변이 제출되었거나(answerSubmitted),
+    // 또는 확인 버튼이 없는 단일 선택 객관식에서 정답/오답 피드백이 끝난 후에 활성화됨.
+    // 따라서 answerSubmitted 체크만으로 충분할 수 있으나, 안전하게 로직 유지.
+    if (elements.nextButton.disabled) return; // 비활성화 상태면 아무것도 안 함
 
-      if (currentQuestion >= questions.length - 1) { // Check if it WAS the last question
-          triggerCompletionAnimation().then(() => { endGame(true); });
-      } else {
-          currentQuestion++;
-          loadQuestion(currentQuestion);
-      }
+    // 문제 풀이 완료 상태 업데이트 및 진행률 반영
+    completedQuestions++;
+    updateProgressBar();
+
+    if (currentQuestion >= questions.length - 1) { // 마지막 문제였으면 게임 종료
+        triggerCompletionAnimation().then(() => { endGame(true); });
+    } else { // 다음 문제 로드
+        currentQuestion++;
+        loadQuestion(currentQuestion);
     }
-    // Do nothing if answer not submitted yet (except on last question going to results)
   });
+
 
   /* 시작 버튼 이벤트 */
   elements.startButton.addEventListener('click', () => {
@@ -2227,7 +2236,7 @@
     elements.startSection.style.display = "none";
     elements.gameSection.style.display = "block";
     timerFunctions.start();       /* 타이머 시작 */
-    resetGame();                  /* 게임 초기화 */
+    resetGame();                /* 게임 초기화 */
     loadQuestion(currentQuestion);  /* 첫 문제 로드 */
   });
 
@@ -2300,6 +2309,7 @@
         game: game,
         name: player,
         score: parseInt(finalScoreValue, 10),
+        maxScore: questions.length * 10, // 만점 정보 추가
         elapsedTime: parseInt(finalElapsedTimeValue, 10)
       };
 
@@ -2345,6 +2355,7 @@
 
   /* 페이지 로드 시 초기화 */
   window.onload = () => {
+    // 게임 타이틀은 일반 텍스트로 설정 (MathJax 렌더링 없음)
     document.getElementById("pageTitle").textContent = gameTitle;
     elements.gameTitle.textContent = gameTitle;
 
